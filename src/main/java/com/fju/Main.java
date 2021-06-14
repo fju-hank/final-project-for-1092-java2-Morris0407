@@ -1,10 +1,7 @@
 package com.fju;
 
-
-
-public class MainActivity {
+public class Main {
     public static void main(String[] args) {
 
     }
-
 }
