@@ -1,2 +1,4 @@
+com/fju/MainActivity.java
+ com.fju.MainActivity
 com/fju/Tester.java
  com.fju.Tester

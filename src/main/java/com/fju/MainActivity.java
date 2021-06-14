@@ -1,7 +1,10 @@
 package com.fju;
 
-public class Tester {
+
+
+public class MainActivity {
     public static void main(String[] args) {
-        System.out.println("Hello");
+
     }
+
 }
