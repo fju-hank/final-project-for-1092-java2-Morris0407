@@ -1,4 +1,4 @@
-com/fju/MainActivity.java
- com.fju.MainActivity
-com/fju/Tester.java
- com.fju.Tester
+com/fju/MenuItem.java
+ com.fju.MenuItem
+com/fju/Main.java
+ com.fju.Main

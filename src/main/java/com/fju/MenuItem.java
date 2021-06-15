@@ -5,6 +5,9 @@ public class MenuItem {
     String name;
     int price1;
     int price2;
+    public MenuItem (){
+        super();
+    }
 
     public  MenuItem (String id ,String name,int price1,int price2){
         this.id = id;
@@ -19,6 +22,13 @@ public class MenuItem {
     public String getName(){
         return name;
     }
+    public int getPrice1(){
+        return price1;
+    }
+    public int getPrice2(){
+        return price2;
+    }
+
 
 
 }
