@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.fju.SeverDemo">
+  <grid id="27dc6" binding="Mainpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="544" height="444"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e7ad2" binding="NorthPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="564e7" class="javax.swing.JTextField" binding="textField1">
+            <constraints/>
+            <properties>
+              <columns value="30"/>
+              <text value="                                  wellcome to my store"/>
+            </properties>
+          </component>
+          <component id="4b93c" class="javax.swing.JButton" binding="hiButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Hi"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f2ce8" binding="WestPanel" custom-create="true" layout-manager="FlowLayout" hgap="6" vgap="6" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="30c57" class="javax.swing.JButton" binding="menuButton" custom-create="true" default-binding="true">
+            <constraints/>
+            <properties>
+              <actionCommand value="Menu"/>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="true"/>
+              <background color="-10062094"/>
+              <horizontalAlignment value="0"/>
+              <maximumSize width="90" height="100"/>
+              <minimumSize width="50" height="30"/>
+              <name value="Menu"/>
+              <selected value="true"/>
+              <text value="Menu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="21277" class="javax.swing.JTextArea" binding="a1黑胡椒鐵板麵2宮保雞丁麵TextArea" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <text value="1.黑胡椒鐵板麵&#10;2.宮保雞丁麵  60&#10;3.火腿蛋餅   35&#10;4.燻雞蛋餅   40&#10;5.卡拉雞腿堡  60&#10;6.奶茶 25&#10;7.紅茶 20&#10;"/>
+        </properties>
+      </component>
+      <component id="2893e" class="javax.swing.JButton" binding="leaveButton" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Leave"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

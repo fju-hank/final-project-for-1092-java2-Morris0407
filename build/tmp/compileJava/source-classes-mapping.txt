@@ -1,4 +1,4 @@
-com/fju/MenuItem.java
- com.fju.MenuItem
 com/fju/Main.java
  com.fju.Main
+com/fju/MenuItem.java
+ com.fju.MenuItem
