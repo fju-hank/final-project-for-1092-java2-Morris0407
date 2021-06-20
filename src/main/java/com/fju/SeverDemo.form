@@ -49,11 +49,14 @@
           </component>
         </children>
       </grid>
-      <component id="21277" class="javax.swing.JTextArea" binding="a1黑胡椒鐵板麵2宮保雞丁麵TextArea" default-binding="true">
+      <component id="21277" class="javax.swing.JTextArea">
         <constraints border-constraint="Center"/>
         <properties>
-          <text value="1.黑胡椒鐵板麵&#10;2.宮保雞丁麵  60&#10;3.火腿蛋餅   35&#10;4.燻雞蛋餅   40&#10;5.卡拉雞腿堡  60&#10;6.奶茶 25&#10;7.紅茶 20&#10;"/>
+          <text value="" noi18n="true"/>
         </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
       </component>
       <component id="2893e" class="javax.swing.JButton" binding="leaveButton" default-binding="true">
         <constraints border-constraint="South"/>

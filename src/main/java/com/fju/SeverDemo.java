@@ -9,8 +9,8 @@ public class SeverDemo {
     private JPanel WestPanel;
     private JButton menuButton;
     private JTextField textField1;
-    private JTextArea a1黑胡椒鐵板麵2宮保雞丁麵TextArea;
     private JButton leaveButton;
+
     String name;
 
     public static void main(String[] args) {

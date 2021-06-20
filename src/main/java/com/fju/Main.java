@@ -1,33 +1,36 @@
 package com.fju;
+import java.io.*;
 
-
-import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        List<MenuItem > menu =  new ArrayList<>( );
-        try {
-            BufferedReader br = new BufferedReader(new FileReader("Menu.txt"));
-            String line = br.readLine();
-            while (line != null){
-                String[] tks = line.split(",");
-            MenuItem item = new MenuItem(tks[0],tks[1],Integer.parseInt(tks[2]));
-            line = br.readLine();
+    public static void main(String[] args) throws Exception {
+
+        InputStream is = null;
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+
+        try{
+            is = new FileInputStream("Menu.txt");
+            isr = new InputStreamReader(is);
+            br = new BufferedReader(isr);
+
+            int value=0;
+            while((value = br.read()) != -1)
+            {
+                char c = (char)value;
+
+                System.out.print(c);
             }
-        } catch (FileNotFoundException e) {
+        }catch(Exception e){
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        }finally{
+            if(is!=null)
+                is.close();
+            if(isr!=null)
+                isr.close();
+            if(br!=null)
+                br.close();
         }
-        for (int i = 0; i < menu.size(); i++) {
-            MenuItem item = menu.get(i);
-            System.out.println(item.getId() + " " + item.getName());
-        }
+
     }
 }

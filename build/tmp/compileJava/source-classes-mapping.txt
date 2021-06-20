@@ -1,4 +1,6 @@
-com/fju/Main.java
- com.fju.Main
+com/fju/SeverDemo.java
+ com.fju.SeverDemo
 com/fju/MenuItem.java
  com.fju.MenuItem
+com/fju/Main.java
+ com.fju.Main
