@@ -42,36 +42,40 @@ public class Main {
             int num = scanner.nextInt();
             System.out.print("enter your number :");
             int num2 = scanner.nextInt();
+
             if (num == 1) {
                 System.out.print("1.black peper noodle  55*" + num2);
-                total = total + (55 * num);
+                System.out.println(" ");
+                total = total + (55 * num2);
             }
             if (num == 2) {
                 System.out.print("2.kong bao chicken noodle  60*" + num2);
-                total = total + (60 * num);
+                total = total + (60 * num2);
             }
             if (num == 3) {
                 System.out.print("3.omelette with ham  35*" + num2);
-                total = total + (35 * num);
+                total = total + (35 * num2);
             }
             if (num == 4) {
                 System.out.print("4.fried chicken burger  60*" + num2);
-                total = total + (60 * num);
+                total = total + (60 * num2);
             }
             if (num == 5) {
                 System.out.print("5.milktea    30*" + num2);
-                total = total + (30 * num);
+                total = total + (30 * num2);
+
             }
             if (num == 6) {
                 System.out.print("6.blacktea   25*" + num2);
-                total = total + (25 * num);
-            } else {
-                int num3 = scanner.nextInt();
-                if (num3 == 0) {
+                total = total + (25 * num2);
+
+            }
+            else {
+                if (num == 0) {
                     System.out.print("Total :" + total);
                     System.out.println(" ");
                 }
-                if (num3 == 88) {
+                if (num == 88) {
                     System.out.print("Total :" + total);
                     System.out.println(" ");
                     System.out.println("bye");

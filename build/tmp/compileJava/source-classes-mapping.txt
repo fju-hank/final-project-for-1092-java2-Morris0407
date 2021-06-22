@@ -1,5 +1,7 @@
 com/fju/SeverDemo.java
  com.fju.SeverDemo
+com/fju/Order.java
+ com.fju.Order
 com/fju/MenuItem.java
  com.fju.MenuItem
 com/fju/Main.java
