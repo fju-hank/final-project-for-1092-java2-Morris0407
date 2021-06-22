@@ -49,19 +49,20 @@
           </component>
         </children>
       </grid>
-      <component id="21277" class="javax.swing.JTextArea">
-        <constraints border-constraint="Center"/>
-        <properties>
-          <text value="" noi18n="true"/>
-        </properties>
-        <clientProperties>
-          <html.disable class="java.lang.Boolean" value="true"/>
-        </clientProperties>
-      </component>
       <component id="2893e" class="javax.swing.JButton" binding="leaveButton" default-binding="true">
         <constraints border-constraint="South"/>
         <properties>
           <text value="Leave"/>
+        </properties>
+      </component>
+      <component id="b07f0" class="javax.swing.JTextArea" binding="a1BlackPeperNoodleTextArea" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font name="JetBrains Mono"/>
+          <foreground color="-54982"/>
+          <preferredSize width="250" height="200"/>
+          <selectedTextColor color="-54982"/>
+          <text value="1.black peper noodle        55&#10;2.kong bao chicken noodle   60&#10;3.omelette with ham         35&#10;4.fried chicken burger      60&#10;5.milktea                   30&#10;6.blacktea                  25&#10;0.total&#10;88.Quit"/>
         </properties>
       </component>
     </children>

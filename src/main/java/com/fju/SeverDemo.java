@@ -10,6 +10,7 @@ public class SeverDemo {
     private JButton menuButton;
     private JTextField textField1;
     private JButton leaveButton;
+    private JTextArea a1BlackPeperNoodleTextArea;
 
     String name;
 
