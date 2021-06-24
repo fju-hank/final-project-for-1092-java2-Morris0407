@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         int total = 0;
-
+       // Num[] nums = {new Num1(), new Num2(), new Num3(), new Num4(), new Num5(), new Num6()};
         InputStream is = null;
         InputStreamReader isr = null;
         BufferedReader br = null;
@@ -38,56 +38,64 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
+           /* for (Num number : nums) {
+                System.out.print("enter your meal :");
+                int num = scanner.nextInt();
+                System.out.print("enter your number :");
+                int num2 = scanner.nextInt();
+                number.num = num;
+                System.out.println(number.getName() + " " +number.getPrice()+ "*" + num2);
+            }*/
+
             System.out.print("enter your meal :");
-            int num = scanner.nextInt();
-            System.out.print("enter your number :");
-            int num2 = scanner.nextInt();
+                int num = scanner.nextInt();
+                System.out.print("enter your number :");
+                int num2 = scanner.nextInt();
 
-            if (num == 1) {
-                System.out.print("1.black peper noodle  55*" + num2);
-                System.out.println(" ");
-                total = total + (55 * num2);
-            }
-            if (num == 2) {
-                System.out.print("2.kong bao chicken noodle  60*" + num2);
-                System.out.println(" ");
-                total = total + (60 * num2);
-            }
-            if (num == 3) {
-                System.out.print("3.omelette with ham  35*" + num2);
-                System.out.println(" ");
-                total = total + (35 * num2);
-            }
-            if (num == 4) {
-                System.out.print("4.fried chicken burger  60*" + num2);
-                System.out.println(" ");
-                total = total + (60 * num2);
-            }
-            if (num == 5) {
-                System.out.print("5.milktea    30*" + num2);
-                System.out.println(" ");
-                total = total + (30 * num2);
-
-            }
-            if (num == 6) {
-                System.out.print("6.blacktea   25*" + num2);
-                System.out.println(" ");
-                total = total + (25 * num2);
-
-            }
-            else {
-                if (num == 0) {
-                    System.out.print("Total :" + total);
+                if (num == 1) {
+                    System.out.print("1.black peper noodle  55*" + num2);
                     System.out.println(" ");
+                    total = total + (55 * num2);
                 }
-                if (num == 88) {
-                    System.out.print("Total :" + total);
+                if (num == 2) {
+                    System.out.print("2.kong bao chicken noodle  60*" + num2);
                     System.out.println(" ");
-                    System.out.println("bye");
-                    break;
+                    total = total + (60 * num2);
+                }
+                if (num == 3) {
+                    System.out.print("3.omelette with ham  35*" + num2);
+                    System.out.println(" ");
+                    total = total + (35 * num2);
+                }
+                if (num == 4) {
+                    System.out.print("4.fried chicken burger  60*" + num2);
+                    System.out.println(" ");
+                    total = total + (60 * num2);
+                }
+                if (num == 5) {
+                    System.out.print("5.milktea    30*" + num2);
+                    System.out.println(" ");
+                    total = total + (30 * num2);
+
+                }
+                if (num == 6) {
+                    System.out.print("6.blacktea   25*" + num2);
+                    System.out.println(" ");
+                    total = total + (25 * num2);
+
+                } else {
+                    if (num == 0) {
+                        System.out.print("Total :" + total);
+                        System.out.println(" ");
+                    }
+                    if (num == 88) {
+                        System.out.print("Total :" + total);
+                        System.out.println(" ");
+                        System.out.println("bye");
+                        break;
+                    }
                 }
             }
-        }
+            }
     }
-}
 
