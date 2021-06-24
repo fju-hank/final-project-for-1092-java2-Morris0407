@@ -50,23 +50,28 @@ public class Main {
             }
             if (num == 2) {
                 System.out.print("2.kong bao chicken noodle  60*" + num2);
+                System.out.println(" ");
                 total = total + (60 * num2);
             }
             if (num == 3) {
                 System.out.print("3.omelette with ham  35*" + num2);
+                System.out.println(" ");
                 total = total + (35 * num2);
             }
             if (num == 4) {
                 System.out.print("4.fried chicken burger  60*" + num2);
+                System.out.println(" ");
                 total = total + (60 * num2);
             }
             if (num == 5) {
                 System.out.print("5.milktea    30*" + num2);
+                System.out.println(" ");
                 total = total + (30 * num2);
 
             }
             if (num == 6) {
                 System.out.print("6.blacktea   25*" + num2);
+                System.out.println(" ");
                 total = total + (25 * num2);
 
             }
