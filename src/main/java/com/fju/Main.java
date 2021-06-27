@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         int total = 0;
-       Num1 n1 =new Num1();
-       Num2 n2 =new Num2();
-       Num3 n3 =new Num3();
-       Num4 n4 =new Num4();
-       Num5 n5 =new Num5();
-       Num6 n6 =new Num6();
+            Num1 n1 =new Num1();
+            Num2 n2 =new Num2();
+            Num3 n3 =new Num3();
+            Num4 n4 =new Num4();
+            Num5 n5 =new Num5();
+            Num6 n6 =new Num6();
 
         InputStream is = null;
         InputStreamReader isr = null;
