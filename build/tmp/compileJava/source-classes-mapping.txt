@@ -1,2 +1,18 @@
-com/fju/Tester.java
- com.fju.Tester
+com/fju/SeverDemo.java
+ com.fju.SeverDemo
+com/fju/Num3.java
+ com.fju.Num3
+com/fju/Num1.java
+ com.fju.Num1
+com/fju/Num.java
+ com.fju.Num
+com/fju/Num6.java
+ com.fju.Num6
+com/fju/Num4.java
+ com.fju.Num4
+com/fju/Num2.java
+ com.fju.Num2
+com/fju/Num5.java
+ com.fju.Num5
+com/fju/Main.java
+ com.fju.Main

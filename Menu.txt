@@ -1,0 +1,9 @@
+1.black peper noodle        55
+2.kong bao chicken noodle   60
+3.omelette with ham         35
+4.fried chicken burger      60
+5.milktea                   30
+6.blacktea                  25
+0.total
+88.Quit
+
